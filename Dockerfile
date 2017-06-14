@@ -2,7 +2,7 @@ FROM alpine:3.6
 MAINTAINER ArthurMa <4406arthur@gmail.com>
 
 #it's from filebeat-5.4.1-linux-x86_64.tar.gz
-ADD bin/filebeat /usr/local/bin
+ADD bin/filebeat.tar.gz /usr/local/bin
 
 # Setup work environment
 ENV FILEBEAT_PATH /tmp
