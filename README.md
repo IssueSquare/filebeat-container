@@ -24,3 +24,8 @@ docker build -t filebeat .
 docker run -v YOUR-filebeat.yml:/tmp/filebeat.yml filebeat
 ```
 
+## Contribution
+
+1. if you want another version support, new a branch name with version number, than request a PR.
+
+2. if you want more env variabe support, add more rules in entrypoint.sh, than request a PR.
