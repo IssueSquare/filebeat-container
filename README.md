@@ -9,12 +9,13 @@ use for shipping log with sidecar pattern
 0. prerequirment build image from Dockerfile
 ```shell
 docker build -t filebeat .
-``` 
+```
 
 1. you can use docker -e put env variable to replace logpath ,endpoint...
 
 >  env var currently supprt:
 >  - LOGPATH
+>  - SCHEMA
 >  - ELASTICHOST
 >  - ELASTICINDEX
 
